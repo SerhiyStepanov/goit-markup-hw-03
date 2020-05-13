@@ -1,0 +1,330 @@
+:root {
+  --primary-text-coor: #757575;
+  --title-text-color: #212121;
+  --acent-color: #2196f3;
+  --background-first: #e5e5e5;
+  --background-second: #f5f4fa;
+  --primary-white-color: #fff;
+  --primary-footer-color: #2f303a;
+  --primary-social-color: #afb1b8;
+}
+
+body {
+  background-color: var(--background-first);
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+/* цвета для title и text */
+
+.section-title {
+  color: var(--title-text-color);
+}
+
+.section-text {
+  color: var(--primary-text-coor);
+}
+
+/* оформление header */
+
+/* лого */
+
+.logo {
+  color: var(--acent-color);
+}
+
+.top-studio {
+  color: var(--title-text-color);
+}
+
+.bottom-studio {
+  color: var(--primary-white-color);
+}
+
+.logo,
+.top-studio {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+/* навигация header  */
+
+.site-nav .link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--acent-color);
+}
+
+.site-nav .link.current {
+  color: var(--acent-color);
+}
+
+/* контакты header */
+
+.contact .link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-coor);
+}
+
+.contact .link:hover,
+.contact .link:focus {
+  color: var(--acent-color);
+}
+
+/* СТУДИЯ */
+
+/*  HERO  */
+
+.hero .hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+}
+
+.hero .link {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--primary-white-color);
+}
+
+/* секция детали */
+
+.section-detail .section-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.section-detail .icon {
+  background-color: var(--background-second);
+  color: var(--title-text-color);
+}
+
+.section-detail .icon:hover,
+.section-detail .icon:focus {
+  background-color: var(--acent-color);
+  color: var(--primary-white-color);
+}
+
+/* секция чем мы занимаемся */
+
+.section-work .section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.section-work .link {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+}
+
+/* секция наша команда */
+
+.section-team .section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.section-team .section-title-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.section-team .section-text {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+/* соцсети */
+
+.social {
+  color: var(--primary-social-color);
+}
+
+.social:hover,
+.social:focus {
+  background-color: var(--acent-color);
+}
+
+/* секция постоянные клиенты */
+
+.section-customers .section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.section-customers .logotype {
+  color: var(--primary-social-color);
+}
+
+.section-customers .logotype:hover,
+.section-customers .logotype:focus {
+  background-color: var(--acent-color);
+}
+
+/* -----  футер  ------ */
+
+/*  футер  логотип */
+
+footer {
+  background-color: var(--primary-footer-color);
+}
+
+.page-footer .logo {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
+
+.page-footer .home {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--primary-white-color);
+}
+
+.page-footer .link {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.page-footer .text {
+  font-weight: 700;
+  font-size: 14;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+}
+
+/*     футер соцсети  */
+
+.page-footer .social {
+  background: rgba(255, 255, 255, 0.1);
+  color: var(--primary-white-color);
+}
+
+.page-footer .social:hover,
+.page-footer .social:focus {
+  background-color: var(--acent-color);
+}
+
+.page-footer .end {
+  font-size: 12px;
+  line-height: 2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+/* футер  button  */
+
+.button-primary {
+  font-size: 16px;
+  line-height: 1.9;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  background-color: var(--primary-footer-color);
+}
+
+.button-secondary {
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 1.9;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--primary-white-color);
+  background-color: var(--acent-color);
+}
+
+/*   портфолио  фильтр */
+
+.section-portfolio .filter {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  background-color: var(--background-second);
+  color: var(--title-text-color);
+}
+
+.section-portfolio .filter:hover,
+.section-portfolio .filter:focus {
+  background-color: var(--acent-color);
+  color: var(--primary-white-color);
+}
+
+.section-portfolio .section-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.section-portfolio .section-text {
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+}
+
+.section-portfolio .text {
+  font-size: 18px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  color: var(--primary-white-color);
+}
