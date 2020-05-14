@@ -130,12 +130,14 @@ ul {
 .hero .hero-title {
   margin-top: 0px;
   margin-bottom: 46px;
+
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+
   color: var(--primary-white-color);
 }
 
@@ -181,6 +183,7 @@ ul {
 .section-detail .section-title {
   margin-top: 0;
   margin-bottom: 10px;
+
   font-weight: 700;
   font-size: 14px;
   line-height: 1.1;
@@ -196,6 +199,7 @@ ul {
 
 .section-work .section-title {
   margin-bottom: 50px;
+
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -210,6 +214,7 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+
   color: var(--primary-white-color);
 }
 
@@ -221,6 +226,7 @@ ul {
 
 .section-title {
   margin-bottom: 50px;
+
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -230,6 +236,7 @@ ul {
 
 .section-team .section-title-name {
   margin-bottom: 10px;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
@@ -239,6 +246,7 @@ ul {
 
 .section-team .section-text {
   margin-bottom: 15px;
+
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -260,6 +268,7 @@ ul {
 
 .section-customers .section-title {
   margin-bottom: 50px;
+
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -297,6 +306,7 @@ footer {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
+
   color: var(--primary-white-color);
 }
 
@@ -304,6 +314,7 @@ footer {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
+
   color: rgba(255, 255, 255, 0.6);
 }
 
@@ -313,6 +324,7 @@ footer {
   line-height: 1.1;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+
   color: var(--primary-white-color);
 }
 
@@ -320,6 +332,7 @@ footer {
 
 .page-footer .social {
   display: inline-block;
+
   background: rgba(255, 255, 255, 0.1);
   color: var(--primary-white-color);
 }
@@ -374,6 +387,7 @@ footer {
 .section-portfolio .filter {
   padding: 6px 22px;
   border-radius: 4px;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
@@ -406,5 +420,6 @@ footer {
   font-size: 18px;
   line-height: 1.6;
   letter-spacing: 0.03em;
+
   color: var(--primary-white-color);
 }
