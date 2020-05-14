@@ -224,7 +224,7 @@ ul {
   background-color: var(--background-second);
 }
 
-.section-title {
+.section-team .section-title {
   margin-bottom: 50px;
 
   font-weight: 700;
@@ -372,11 +372,12 @@ footer {
 
 .button-secondary {
   padding: 10px 45px;
-  border-radius: 4px;
+
   font-weight: 900;
   font-size: 16px;
   line-height: 1.9;
   text-align: center;
+  border-radius: 4px;
   letter-spacing: 0.06em;
   color: var(--primary-white-color);
   background-color: var(--acent-color);
@@ -386,12 +387,12 @@ footer {
 
 .section-portfolio .filter {
   padding: 6px 22px;
-  border-radius: 4px;
 
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
   letter-spacing: 0.03em;
+  border-radius: 4px;
   background-color: var(--background-second);
   color: var(--title-text-color);
 }
@@ -403,7 +404,6 @@ footer {
 }
 
 .section-portfolio .section-title {
-  text-align: center;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -417,6 +417,7 @@ footer {
 }
 
 .section-portfolio .text {
+  display: none;
   font-size: 18px;
   line-height: 1.6;
   letter-spacing: 0.03em;
