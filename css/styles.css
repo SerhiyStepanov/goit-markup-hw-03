@@ -190,6 +190,10 @@ ul {
 
 /* секция чем мы занимаемся */
 
+.section-work {
+  background-color: var(--background-first);
+}
+
 .section-work .section-title {
   margin-bottom: 50px;
   font-weight: 700;
@@ -239,6 +243,7 @@ ul {
 /* соцсети */
 
 .social {
+  display: inline-block;
   color: var(--primary-social-color);
 }
 
@@ -310,6 +315,7 @@ footer {
 /*     футер соцсети  */
 
 .page-footer .social {
+  display: inline-block;
   background: rgba(255, 255, 255, 0.1);
   color: var(--primary-white-color);
 }
