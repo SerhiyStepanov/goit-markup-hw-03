@@ -10,12 +10,27 @@
 }
 
 body {
-  background-color: var(--background-first);
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   line-height: 1.7;
+  background-color: var(--background-first);
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
 .list {
   padding: 0;
   margin: 0;
@@ -47,7 +62,9 @@ body {
 /* оформление header */
 
 /* лого */
-
+.page-header {
+  background-color: var(--primary-white-color);
+}
 .logo {
   color: var(--acent-color);
 }
@@ -123,6 +140,7 @@ body {
 }
 
 .hero .hero-link {
+  display: inline-block;
   padding: 10px 32px;
   margin-bottom: 200px;
   margin-left: auto;
@@ -142,8 +160,6 @@ body {
 /* секция детали */
 
 .section-detail {
-  padding-top: 94px;
-  padding-bottom: 94px;
   background-color: var(--background-first);
 }
 
@@ -156,7 +172,15 @@ body {
   border-radius: 4px;
 }
 
+.section-detail .icon:hover,
+.section-detail .icon:focus {
+  background-color: var(--acent-color);
+  color: var(--primary-white-color);
+}
+
 .section-detail .section-title {
+  margin-top: 0;
+  margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.1;
@@ -164,15 +188,10 @@ body {
   text-transform: uppercase;
 }
 
-.section-detail .icon:hover,
-.section-detail .icon:focus {
-  background-color: var(--acent-color);
-  color: var(--primary-white-color);
-}
-
 /* секция чем мы занимаемся */
 
 .section-work .section-title {
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -193,6 +212,7 @@ body {
 /* секция наша команда */
 
 .section-team .section-title {
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -201,6 +221,7 @@ body {
 }
 
 .section-team .section-title-name {
+  margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
@@ -209,6 +230,7 @@ body {
 }
 
 .section-team .section-text {
+  margin-bottom: 15px;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -228,6 +250,7 @@ body {
 /* секция постоянные клиенты */
 
 .section-customers .section-title {
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -236,6 +259,8 @@ body {
 }
 
 .section-customers .logotype {
+  display: inline-block;
+  border-radius: 4px;
   color: var(--primary-social-color);
 }
 
@@ -354,6 +379,7 @@ footer {
 }
 
 .section-portfolio .section-title {
+  text-align: center;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
