@@ -61,6 +61,11 @@ ul {
 
 /* оформление header */
 
+.header {
+  display: flex;
+  align-items: center;
+}
+
 /* лого */
 .page-header {
   background-color: var(--primary-white-color);
@@ -88,7 +93,21 @@ ul {
 
 /* навигация header  */
 
+.site-nav {
+  display: flex;
+  margin-left: 86px;
+  padding-left: 0;
+}
+
+.site-nav .item + .item {
+  margin-left: 50px;
+}
+
 .site-nav .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
@@ -107,7 +126,19 @@ ul {
 
 /* контакты header */
 
+.page-header .contact {
+  display: flex;
+  margin-left: auto;
+  padding-left: 0;
+}
+
+.contact .item + .item {
+  margin-left: 30px;
+}
+
 .contact .link {
+  margin-left: 10px;
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
@@ -137,7 +168,6 @@ ul {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-
   color: var(--primary-white-color);
 }
 
@@ -165,9 +195,22 @@ ul {
   background-color: var(--background-first);
 }
 
+.detail {
+  display: flex;
+  padding-left: 0;
+}
+
+.detail .item + .item {
+  margin-left: 30px;
+  align-items: center;
+  width: 278px;
+}
+
 .section-detail .icon {
-  display: inline-block;
+  display: block;
+  width: 278px;
   padding: 25px 106px;
+  margin-top: 94px;
   margin-bottom: 30px;
 
   background-color: var(--background-second);
@@ -207,7 +250,17 @@ ul {
   letter-spacing: 0.03em;
 }
 
+.work {
+  display: flex;
+  padding-left: 0;
+}
+.work .item + .item {
+  margin-left: 30px;
+}
+
 .section-work .link {
+  display: block;
+  width: 380px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.1;
@@ -234,7 +287,23 @@ ul {
   letter-spacing: 0.03em;
 }
 
+.team {
+  display: flex;
+  padding-left: 0;
+}
+
+.team .item-name {
+  align-items: center;
+  width: 278px;
+  height: 422px;
+}
+
+.item-name + .item-name {
+  margin-left: 30px;
+}
+
 .section-team .section-title-name {
+  margin-top: 30px;
   margin-bottom: 10px;
 
   font-weight: 500;
@@ -254,8 +323,14 @@ ul {
 }
 /* соцсети */
 
+.nav-social {
+  display: flex;
+}
+
 .social {
-  display: inline-block;
+  display: block;
+  text-align: ;
+  width: 44px;
   color: var(--primary-social-color);
 }
 
@@ -276,8 +351,20 @@ ul {
   letter-spacing: 0.03em;
 }
 
+.customers {
+  display: flex;
+  padding-left: 0;
+}
+
+.customers .item + .item {
+  margin-left: 30px;
+  margin-bottom: 94px;
+}
+
 .section-customers .logotype {
-  display: inline-block;
+  display: block;
+  width: 175px;
+  height: 90px;
   border-radius: 4px;
   color: var(--primary-social-color);
 }
@@ -385,8 +472,18 @@ footer {
 
 /*   портфолио  фильтр */
 
+.filter-work {
+  display: flex;
+  padding-left: 0;
+}
+
+.filter-work .item + .item {
+  margin-left: 8px;
+}
+
 .section-portfolio .filter {
   padding: 6px 22px;
+  margin-bottom: 50px;
 
   font-weight: 500;
   font-size: 16px;
@@ -402,6 +499,8 @@ footer {
   background-color: var(--acent-color);
   color: var(--primary-white-color);
 }
+
+/* портфолио  карточки */
 
 .section-portfolio .section-title {
   font-weight: 700;
