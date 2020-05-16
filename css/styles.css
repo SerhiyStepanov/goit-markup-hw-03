@@ -484,7 +484,7 @@ footer {
 }
 
 .button-primary {
-  display: block;
+  display: flex;
   padding-top: 18px;
   padding-right: 58px;
   padding-bottom: 18px;
@@ -496,7 +496,7 @@ footer {
   height: 50px;
   font-size: 16px;
   line-height: 1.9;
-  text-align: left;
+  align-items: center;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   background-color: var(--primary-footer-color);
