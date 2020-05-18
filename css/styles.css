@@ -159,6 +159,7 @@ ul {
 }
 
 .hero .hero-title {
+  padding-top: 200px;
   margin-top: 0px;
   margin-bottom: 46px;
 
@@ -197,6 +198,8 @@ ul {
 
 .detail {
   display: flex;
+  padding-top: 94px;
+  padding-bottom: 94px;
   padding-left: 0;
 }
 
@@ -210,7 +213,7 @@ ul {
   display: block;
   width: 278px;
   padding: 25px 106px;
-  margin-top: 94px;
+
   margin-bottom: 30px;
 
   background-color: var(--background-second);
@@ -241,6 +244,7 @@ ul {
 }
 
 .section-work .section-title {
+  padding-top: 94px;
   margin-bottom: 50px;
 
   font-weight: 700;
@@ -253,6 +257,7 @@ ul {
 .work {
   display: flex;
   padding-left: 0;
+  padding-bottom: 94px;
 }
 .work .item + .item {
   margin-left: 30px;
@@ -278,6 +283,7 @@ ul {
 }
 
 .section-team .section-title {
+  padding-top: 94px;
   margin-bottom: 50px;
 
   font-weight: 700;
@@ -290,6 +296,7 @@ ul {
 .team {
   display: flex;
   padding-left: 0;
+  padding-bottom: 94px;
 }
 
 .team .item-name {
@@ -343,6 +350,7 @@ ul {
 
 .section-customers .section-title {
   margin-bottom: 50px;
+  padding-top: 94px;
 
   font-weight: 700;
   font-size: 36px;
@@ -354,17 +362,16 @@ ul {
 .customers {
   display: flex;
   padding-left: 0;
+  padding-bottom: 94px;
 }
 
 .customers .item + .item {
   margin-left: 30px;
-  margin-bottom: 94px;
 }
 
-.section-customers .logotype {
+.customers .logotype {
   display: block;
   width: 175px;
-  height: 90px;
   border-radius: 4px;
   color: var(--primary-social-color);
 }
@@ -388,10 +395,17 @@ footer {
 
 .foot .left {
   margin-right: 179px;
+  padding-top: 48px;
+}
+
+.foot .center {
+  padding-top: 56px;
+  padding-bottom: 56px;
 }
 
 .foot .right {
   margin-left: auto;
+  padding-top: 56px;
 }
 
 .page-footer .logo {
@@ -435,7 +449,6 @@ footer {
 
 .box .foot-seti {
   width: 207px;
-  height: 81px;
 }
 
 .foot-seti {
@@ -465,6 +478,8 @@ footer {
 }
 
 .page-footer .end {
+  padding-top: 18px;
+  padding-bottom: 21px;
   font-size: 12px;
   line-height: 2;
   text-align: center;
@@ -525,7 +540,9 @@ footer {
 .filter-work {
   display: flex;
   justify-content: center;
+  padding-top: 94px;
   padding-left: 0;
+  margin-bottom: 50px;
 }
 
 .filter-work .item + .item {
@@ -534,7 +551,6 @@ footer {
 
 .section-portfolio .filter {
   padding: 6px 22px;
-  margin-bottom: 50px;
 
   font-weight: 500;
   font-size: 16px;
@@ -557,6 +573,7 @@ footer {
   display: flex;
   flex-wrap: wrap;
   padding-left: 0;
+  padding-bottom: 94px;
 }
 
 .cart .element {
