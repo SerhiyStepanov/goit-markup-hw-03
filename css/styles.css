@@ -44,7 +44,10 @@ ul {
 }
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
+
 /* цвета для title и text */
 
 .section-title {
@@ -71,6 +74,7 @@ img {
 }
 
 /* лого */
+
 .page-header {
   background-color: var(--primary-white-color);
 }
@@ -372,9 +376,11 @@ img {
 .customers .element + .element {
   margin-left: 30px;
 }
+
 .customers .element .item {
   display: block;
 }
+
 .logotype {
   display: block;
   width: 175px;
