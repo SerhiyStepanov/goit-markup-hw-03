@@ -477,7 +477,7 @@ footer {
   background-color: var(--acent-color);
 }
 
-.page-footer .end {
+.page-footer .copy-right {
   padding-top: 18px;
   padding-bottom: 21px;
   font-size: 12px;
@@ -485,6 +485,7 @@ footer {
   text-align: center;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.4);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 /* футер  button  */
