@@ -31,6 +31,7 @@ ul {
   margin-top: 0;
   margin-bottom: 0;
 }
+
 .list {
   padding: 0;
   margin: 0;
@@ -40,6 +41,9 @@ ul {
 .link {
   margin: 0;
   text-decoration: none;
+}
+img {
+  display: block;
 }
 /* цвета для title и text */
 
@@ -128,6 +132,7 @@ ul {
 
 .page-header .contact {
   display: flex;
+  text-align: center;
   margin-left: auto;
   padding-left: 0;
 }
@@ -137,6 +142,7 @@ ul {
 }
 
 .contact .link {
+  display: block;
   margin-left: 10px;
 
   font-weight: 500;
@@ -300,7 +306,7 @@ ul {
 .team .item-name {
   align-items: center;
   width: 278px;
-  height: 422px;
+  padding-bottom: 24px;
 }
 
 .item-name + .item-name {
@@ -330,7 +336,7 @@ ul {
 
 .nav-social {
   display: flex;
-  justify-content: space-evenly;
+  align-items: center;
 }
 
 .social {
@@ -477,7 +483,7 @@ footer {
   background-color: var(--acent-color);
 }
 
-.page-footer .copy-right {
+.copyright {
   padding-top: 18px;
   padding-bottom: 21px;
   font-size: 12px;
