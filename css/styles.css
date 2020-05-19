@@ -42,11 +42,13 @@ ul {
   margin: 0;
   text-decoration: none;
 }
+
 img {
   display: block;
   max-width: 100%;
   height: auto;
 }
+
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -591,6 +593,7 @@ footer {
 }
 
 .cart .element {
+  display: block;
   width: calc((100%-60px) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
