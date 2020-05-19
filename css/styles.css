@@ -208,7 +208,6 @@ img {
 
 .detail {
   display: flex;
-  width: calc((100%-90px) / 4);
   padding-top: 94px;
   padding-bottom: 94px;
   padding-left: 0;
@@ -268,6 +267,7 @@ img {
   padding-left: 0;
   padding-bottom: 94px;
 }
+
 .work .item + .item {
   width: calc((100%-60px) / 3);
   margin-left: 30px;
@@ -310,8 +310,7 @@ img {
 }
 
 .team .item-name {
-  align-items: center;
-  width: calc((100%-90px) / 4);
+  display: block;
   padding-bottom: 24px;
 }
 
@@ -376,7 +375,6 @@ img {
 }
 
 .customers .element + .element {
-  width: ((100%-150px)/6);
   margin-left: 30px;
 }
 
@@ -594,9 +592,13 @@ footer {
 
 .cart .element {
   display: block;
-  width: calc((100%-60px) / 3);
+  width: ((100%-60px)/3);
   margin-right: 30px;
   margin-bottom: 30px;
+}
+
+.cart .link {
+  display: block;
 }
 
 .cart .element:nth-child(3n) {
