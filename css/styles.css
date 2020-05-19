@@ -2,7 +2,7 @@
   --primary-text-coor: #757575;
   --title-text-color: #212121;
   --acent-color: #2196f3;
-  --background-first: #e5e5e5;
+  --background-first: #ffffff;
   --background-second: #f5f4fa;
   --primary-white-color: #fff;
   --primary-footer-color: #2f303a;
@@ -167,11 +167,13 @@ img {
 
 /*  HERO  */
 .hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
   text-align: center;
+  background-color: #ccc;
 }
 
 .hero .hero-title {
-  padding-top: 200px;
   margin-top: 0px;
   margin-bottom: 46px;
 
@@ -187,7 +189,6 @@ img {
 .hero .hero-link {
   display: inline-block;
   padding: 10px 32px;
-  margin-bottom: 200px;
 
   font-weight: 700;
   font-size: 16px;
@@ -203,13 +204,13 @@ img {
 /* секция детали */
 
 .section-detail {
+  padding-top: 94px;
+  padding-bottom: 94px;
   background-color: var(--background-first);
 }
 
 .detail {
   display: flex;
-  padding-top: 94px;
-  padding-bottom: 94px;
   padding-left: 0;
 }
 
@@ -248,11 +249,12 @@ img {
 /* секция чем мы занимаемся */
 
 .section-work {
+  padding-top: 94px;
+  padding-bottom: 94px;
   background-color: var(--background-first);
 }
 
 .section-work .section-title {
-  padding-top: 94px;
   margin-bottom: 50px;
 
   font-weight: 700;
@@ -265,7 +267,6 @@ img {
 .work {
   display: flex;
   padding-left: 0;
-  padding-bottom: 94px;
 }
 
 .work .item + .item {
@@ -289,11 +290,12 @@ img {
 /* секция наша команда */
 
 .section-team {
+  padding-top: 94px;
+  padding-bottom: 94px;
   background-color: var(--background-second);
 }
 
 .section-team .section-title {
-  padding-top: 94px;
   margin-bottom: 50px;
 
   font-weight: 700;
@@ -306,7 +308,6 @@ img {
 .team {
   display: flex;
   padding-left: 0;
-  padding-bottom: 94px;
 }
 
 .team .item-name {
@@ -357,9 +358,13 @@ img {
 
 /* секция постоянные клиенты */
 
+.section-customers {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .section-customers .section-title {
   margin-bottom: 50px;
-  padding-top: 94px;
 
   font-weight: 700;
   font-size: 36px;
@@ -371,7 +376,6 @@ img {
 .customers {
   display: flex;
   padding-left: 0;
-  padding-bottom: 94px;
 }
 
 .customers .element + .element {
@@ -551,10 +555,16 @@ footer {
 
 /*   портфолио  фильтр */
 
+.section-portfolio {
+  padding-top: 93px;
+  padding-bottom: 94px;
+  background-color: var(--background-first);
+  border-top: 1px solid #ececec;
+}
+
 .filter-work {
   display: flex;
   justify-content: center;
-  padding-top: 94px;
   padding-left: 0;
   margin-bottom: 50px;
 }
@@ -587,7 +597,6 @@ footer {
   display: flex;
   flex-wrap: wrap;
   padding-left: 0;
-  padding-bottom: 94px;
 }
 
 .cart .element {
