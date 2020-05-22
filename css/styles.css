@@ -171,8 +171,8 @@ img {
   color: var(--primary-text-coor);
 }
 
-.contact .link:hover,
-.contact .link:focus {
+.page-header .contact .link:hover,
+.page-header .contact .link:focus {
   color: var(--acent-color);
 }
 
@@ -522,8 +522,8 @@ footer {
   color: var(--primary-white-color);
 }
 
-.page-footer .link:hover,
-.page-footer .link:focus {
+.foot-seti .link:hover,
+.foot-seti .link:focus {
   background-color: var(--acent-color);
 }
 
