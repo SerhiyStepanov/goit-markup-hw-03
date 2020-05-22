@@ -374,20 +374,21 @@ img {
 }
 /* соцсети */
 
-.nav-social {
+.team-social {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   padding-left: 0;
 }
 
-.social {
+.team .link {
   display: block;
-  width: 44px;
+  padding: 12px;
+  border-radius: 25px;
   color: var(--primary-social-color);
 }
 
-.social:hover,
-.social:focus {
+.team-social .link:hover,
+.team-social .link:focus {
   background-color: var(--acent-color);
 }
 
@@ -511,24 +512,20 @@ footer {
   padding-left: 0;
 }
 
-.foot-seti .element + .element {
+.foot-seti .list + .list {
   display: block;
   margin-left: 10px;
 }
 
-.foot-seti .item {
+.foot-seti .link {
   display: block;
-}
-
-.foot-seti .social {
-  display: block;
-
+  border-radius: 25px;
   background: rgba(255, 255, 255, 0.1);
   color: var(--primary-white-color);
 }
 
-.page-footer .social:hover,
-.page-footer .social:focus {
+.page-footer .link:hover,
+.page-footer .link:focus {
   background-color: var(--acent-color);
 }
 
