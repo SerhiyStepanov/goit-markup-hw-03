@@ -183,7 +183,7 @@ img {
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
-  background-color: #ccc;
+  background-image: url("Hero.jpg");
 }
 
 .hero .hero-title {
