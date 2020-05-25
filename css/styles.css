@@ -189,6 +189,7 @@ img {
   height: 600px;
   margin-left: auto;
   margin-right: auto;
+  background-color: #474858;
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.8),
       rgba(47, 48, 58, 0.8)
@@ -585,7 +586,7 @@ footer {
 }
 
 .button-secondary {
-  display: block;
+  display: flex;
   padding-top: 10px;
   padding-right: 45px;
   padding-bottom: 10px;
@@ -600,6 +601,11 @@ footer {
   letter-spacing: 0.06em;
   color: var(--primary-white-color);
   background-color: var(--acent-color);
+}
+
+.button-secondary::after {
+  content: "";
+  background-image: url("");
 }
 
 /*   портфолио  фильтр */
