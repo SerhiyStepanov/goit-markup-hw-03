@@ -157,10 +157,6 @@ img {
   margin-left: 30px;
 }
 
-.contact .icon {
-  display: inline-block;
-}
-
 .contact .link {
   margin-left: 10px;
 
@@ -588,9 +584,9 @@ footer {
 .button-secondary {
   display: flex;
   padding-top: 10px;
-  padding-right: 45px;
+  padding-right: 28px;
   padding-bottom: 10px;
-  padding-left: 45px;
+  padding-left: 29px;
   height: 50px;
 
   font-weight: 900;
@@ -605,7 +601,13 @@ footer {
 
 .button-secondary::after {
   content: "";
-  background-image: url("");
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  align-items: center;
+  background-image: url("../images/iconsend.svg");
 }
 
 /*   портфолио  фильтр */
