@@ -186,15 +186,20 @@ img {
 .hero-box {
   display: block;
   width: 1600px;
+  height: 600px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 200px;
-  padding-bottom: 200px;
   background: url(../images/Hero.jpg);
 }
 
+.hero-box > .content {
+  padding-top: 200px;
+  padding-right: 477px;
+  padding-bottom: 200px;
+  padding-left: 477px;
+}
+
 .hero .hero-title {
-  margin-top: 0px;
   margin-bottom: 46px;
 
   font-weight: 900;
