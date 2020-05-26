@@ -645,12 +645,13 @@ footer {
   padding-bottom: 13px;
   align-items: center;
   background-image: url("../images/iconsend.svg");
+  background-repeat: no-repeat;
 }
 
 /*   портфолио  фильтр */
 
 .section-portfolio {
-  padding-top: 93px;
+  padding-top: 94px;
   padding-bottom: 94px;
   background-color: var(--background-first);
   border-top: 1px solid #ececec;
