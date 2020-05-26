@@ -147,8 +147,7 @@ img {
 /* контакты header */
 
 .page-header .contact {
-  display: flex;
-  align-items: center;
+  display: inline-flex;
   margin-left: auto;
   padding-left: 0;
 }
@@ -157,8 +156,32 @@ img {
   margin-left: 30px;
 }
 
+.contact .list::before {
+  content: "";
+  display: inline-block;
+  margin-right: 10px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.post::before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 11px;
+  background-image: url(../images/post.svg);
+}
+
+.phone::before {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 15px;
+  background-image: url(../images/phone.svg);
+}
+
 .contact .link {
-  margin-left: 10px;
+  margin-left: ;
 
   font-weight: 500;
   font-size: 14px;
