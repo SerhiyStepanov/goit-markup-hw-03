@@ -238,31 +238,47 @@ img {
 .detail {
   display: flex;
   padding-left: 0;
+  align-items: center;
 }
 
 .detail > .item {
+  display: block;
   width: calc((100% - 90px) / 4);
 }
 
 .detail .item + .item {
-  align-items: center;
   margin-left: 30px;
 }
 
-.section-detail .icon {
+.detail > .item::before {
+  content: "";
   display: block;
-  width: 270px;
-  padding: 25px 106px;
+  height: 120px;
   margin-bottom: 30px;
-
   background-color: var(--background-second);
+  background-repeat: no-repeat;
+  background-position: center;
   border-radius: 4px;
 }
 
-.section-detail .icon:hover,
-.section-detail .icon:focus {
-  background-color: var(--acent-color);
-  color: var(--primary-white-color);
+.icon-antena::before {
+  content: "";
+  background-image: url(../images/antena.svg);
+}
+
+.icon-clock::before {
+  content: "";
+  background-image: url(../images/clock.svg);
+}
+
+.icon-diagram::before {
+  content: "";
+  background-image: url(../images/diagram.svg);
+}
+
+.icon-astronaut::before {
+  content: "";
+  background-image: url(../images/astronaut.svg);
 }
 
 .section-detail .section-title {
