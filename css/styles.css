@@ -174,15 +174,13 @@ img {
 
 .phone::before {
   content: "";
-  display: block;
+  display: inline-block;
   width: 10px;
   height: 15px;
   background-image: url(../images/phone.svg);
 }
 
 .contact .link {
-  margin-left: ;
-
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
